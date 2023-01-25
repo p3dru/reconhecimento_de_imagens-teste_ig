@@ -11,6 +11,14 @@ class ScreenManager:
         active_window_title = win32gui.GetWindowText(win32gui.GetForegroundWindow()).lower()    #pega o nome da janela atual e seta como minúscula
         return app_title_name in active_window_title                #verifica com true ou false
 
+    @staticmethod
+    def click_on_screen(coordinate_to_click: int):
+        pyautogui.click(coordinate_to_click)        #para clicar na imagem alvo que aparece na tela
+    
+    @staticmethod
+    def scroll_on_screen(value_to_scroll: int):
+        pyautogui.scroll(value_to_scroll)           #para rolar a tela afim de buscar novas imagens
+
     @staticmethod                                               #serve para não precisar instanciar a classe
     def search_image_on_screen(image_to_search: str):
         try:
