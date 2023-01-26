@@ -1,0 +1,12 @@
+Para criar um .exe a partir de um código python, basta seguir os seguintes passos:
+1 - Instale a biblioteca auto-py-to-exe utilizando "pip install auto-py-to-exe"
+2 - Após a instalação execute "auto-py-to-exe" no cmd
+3 - Selecione o código que deseja transformar em executável (caso seu arquivo
+possua mais de um código, basta selecionar o código "main" ou o código principal)
+4 - Escolha as definições no app, selecionando se você deseja um arquivo único ou
+um diretório único (recomendo um arquivo único)
+5 - Clicar em "Convert .py to .exe"
+6 - Com o executável pronto, ainda é necessário ter a imagem de pesquisa na mesma
+pasta do executável para que ele possa realizar a automação, caso contrário,
+apresentará erro. No caso, a foto tem o nome de "teste.png", mas é possível
+renomear ou criar parâmetros que possam ser lidos de outra forma posteriormente.
